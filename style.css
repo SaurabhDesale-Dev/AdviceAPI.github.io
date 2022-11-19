@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+body {
+  background-color: hsl(218, 23%, 16%);
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 540px;
+  height: 364px;
+  background-color: hsl(217, 19%, 24%);
+  margin: 15% auto 0 auto;
+  box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+  border-radius: 15px;
+  position: relative;
+}
+.content-container {
+  width: 444px;
+  height: 100%;
+
+  position: absolute;
+  left: 48px;
+}
+.advice-id {
+  position: relative;
+  top: 48px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 4.08571px;
+  color: #53ffaa;
+}
+.quote {
+  position: absolute;
+  top: 90px;
+  width: 444px;
+  height: 114px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.3px;
+
+  color: #cee3e9;
+}
+.divider {
+  position: absolute;
+  bottom: 72px;
+}
+.btn {
+  position: absolute;
+  top: 340px;
+  left: 190px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50px;
+  background-color: #53ffaa;
+}
+.dice-logo {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.dice-logo:hover {
+  background-color: #53ffaa;
+  box-shadow: 0px 0px 40px 10px #53ffaa;
+}
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 45%;
+  color: #53ffaa;
+  font-family: "Manrope";
+}
+.heading {
+  text-align: center;
+  color: #53ffaa;
+  font-family: "Manrope";
+  position: relative;
+  top: 200px;
+}
